@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Seite mit Bild-Hintergrund und Links</title>
+    <title>Home</title>
     <style>
         body {
             margin: 0;
@@ -27,8 +27,16 @@
         .link-bereich a {
             display: block;
             position: absolute;
-            border: 2px solid black; /* Füge hier eine Umrandung hinzu, damit du die Bereiche besser sehen kannst */
+            color: #fff;
+            background-color: #007bff;
         }
+          .link-bereich a:hover {
+             background-color: #0056b3; /* Background color on hover */
+  color: #fff; /* Text color on hover */
+        }
+
+
+
         /* Ändere die Koordinaten und die Größe jedes Bereichs entsprechend deines Bildes */
         .link-bereich-1 {
             top: 50%;
@@ -53,14 +61,10 @@
 <body>
     <div id="links-container">
         <div class="link-bereich link-bereich-1">
-            <a href="https://zirkonzahn.sharepoint.com/:u:/r/sites/QualityAssurance/SitePages/How-we-work.aspx?csf=1&web=1&share=EXK_VAc8HCFEvBuo278hUfkBVroOm8kBO-x1JW9WZRdqQw&e=k0AfLz">Wie wir arbeiten</a>
+            <a href="https://zirkonzahn.sharepoint.com/:u:/r/sites/QualityAssurance/SitePages/How-we-work.aspx?csf=1&web=1&share=EXK_VAc8HCFEvBuo278hUfkBVroOm8kBO-x1JW9WZRdqQw&e=k0AfLz">
+                Wie wir arbeiten</a>
         </div>
-        <div class="link-bereich link-bereich-2">
-            <a href="ziel2.html">test</a>
-        </div>
-        <div class="link-bereich link-bereich-3">
-            <a href="ziel3.html">test</a>
-        </div>
+       
     </div>
 </body>
 </html>
